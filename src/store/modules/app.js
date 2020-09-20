@@ -1,7 +1,8 @@
 import { userRegister } from '@/api/api'
 const state = {
   timeout: false, // 请求超时状态
-  _axiosPromiseCancel: [] // axios cancelToken队列
+  _axiosPromiseCancel: [], // axios cancelToken队列
+  routesArr:[]
 }
 
 const mutations = {
@@ -14,7 +15,8 @@ const mutations = {
     } else if (typeof c === 'object') {
       state._axiosPromiseCancel = c
     }
-  }
+  },
+  add_routesArr(state,data){}
 }
 
 const actions = {

@@ -1,6 +1,6 @@
 <template>
     <el-header>
-      头部菜单
+      header
     </el-header>
 </template>
 

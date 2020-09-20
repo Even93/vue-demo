@@ -50,7 +50,7 @@ export default {
         {
           icon: 'el-icon-home',
           index: '3',
-          title: '菜单一',
+          title: 'CSS相关',
           show: false,
           Child: [
             {
@@ -58,24 +58,32 @@ export default {
               title: 'CSS属性'
             },
             {
-              index: 'addWhiteList',
-              title: 'menu2'
+              index: 'demo2',
+              title: 'less相关'
+            },
+            {
+              index: 'demo3',
+              title: '深拷贝'
+            },
+            {
+              index: 'father',
+              title: '插槽'
             }
           ]
         },
         {
           icon: 'el-icon-nav-assessmentMG',
           index: '2',
-          title: '菜单二',
+          title: '布局相关',
           show: false,
           Child: [
             {
-              index: 'activeList',
-              title: 'demo1'
+              index: 'flex',
+              title: 'flex布局'
             },
             {
-              index: 'addActiveList',
-              title: 'demo2'
+              index: 'block',
+              title: 'css动画'
             }
           ]
         }
@@ -95,6 +103,9 @@ export default {
   overflow-y: auto;
   &::-webkit-scrollbar{
     display: none;
+  }
+  .el-memu{
+    border:0;
   }
 }
 </style>

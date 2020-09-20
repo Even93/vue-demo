@@ -1,0 +1,28 @@
+
+.el-menu{
+    border-right:none !important;
+}
+#my-menu .el-submenu__title {
+    padding-left: 20px!important;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: #212a40!important;
+    
+}
+#my-menu .el-submenu__title i{
+    color:#fff;
+}
+#my-menu .el-submenu__title span{
+    margin-left: 5px;
+}
+#my-menu .el-menu-item {
+    margin: 0!important;
+    padding-left: 40px!important;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px !important;
+}
+#my-menu .el-submenu__icon-arrow{
+    font-size: 14px;
+}
